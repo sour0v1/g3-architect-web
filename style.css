@@ -1,4 +1,30 @@
 /*Import google fonts*/
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
-</style>
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/*Style header*/
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav h3{
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+nav ul{
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
