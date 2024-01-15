@@ -131,7 +131,12 @@ main {
 .facts-container2 {
     display: flex;
     justify-content: space-around;
+
 }
+.facts-container2 div:hover {
+    border: 2px solid darkturquoise;
+}
+
 
 .facts-container2 div {
     border-radius: 8px;
@@ -173,6 +178,16 @@ font-weight: 600;
     .team-features {
         padding: 40px;
     }
+    .facts-container2{
+        flex-direction: column;
+    }
+    .facts-descrition{
+        width: auto;
+    }
+    .facts-container1{
+        padding: 10px;
+    }
+    
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
@@ -195,5 +210,8 @@ font-weight: 600;
 
     .team-features {
         padding: 40px;
+    }
+    .facts-container2{
+        flex-direction: column;
     }
 }
